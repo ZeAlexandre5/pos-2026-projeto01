@@ -1,3 +1,5 @@
+
+
 import {
     listarPokemons,
     buscarPokemon
@@ -44,5 +46,5 @@ async function carregarDetalhes(nome) {
         mostrarErro(app, error.message);
     }
 }
-
 carregarPokemons();
+

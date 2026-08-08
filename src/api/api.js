@@ -19,3 +19,4 @@ export async function buscarPokemon(nome) {
 
     return await response.json();
 }
+
